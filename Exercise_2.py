@@ -6,8 +6,6 @@ routes = ["Nairobi-Kisumu", "Mombasa-Malindi", "Nakuru-Eldoret",
           "Nyeri-Nanyuki", "Garissa-Mwingi", "Kitale-Bungoma",
           "Narok-Kajiado", "Isiolo-Marsabit", "Naivasha-Gilgil",
           "Thika-Muranga"]
-
-print("EXERCISE 2: PYTHON LISTS (LOGISTICS SECTOR)")
 print("Routes:", routes)
 
 routes.append("Kakamega-Busia")
