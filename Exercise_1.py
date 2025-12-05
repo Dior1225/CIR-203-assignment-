@@ -11,7 +11,6 @@ transactions = np.array([
     [900,  950,  1000, 1100, 1150, 1200]   # Branch 4
 ])
 
-print("EXERCISE 1: NUMPY ARRAYS (BANKING SECTOR)")
 print("Transactions Array:\n", transactions)
 
 total_per_branch = np.sum(transactions, axis=1)
