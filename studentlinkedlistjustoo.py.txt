@@ -1,0 +1,38 @@
+class Node:
+    def _init_(self, data):
+        self.data = data  
+        self.next = None  
+
+class LinkedList:
+    def _init_(self):
+        self.head = Non
+ def insert(self, name, admission, grades):
+        new_data = {
+            "Name": name,
+            "Admission": admission,
+            "Grades": grades 
+        }
+        new_node = Node(new_data)
+
+        if self.head is None:
+            self.head = new_node
+        else:
+            current = self.head
+            while current.next:
+                current = current.next
+            current.next = new_node
+
+    def display(self):
+        current = self.head
+        while current:
+            print(current.data)
+            current = current.next
+
+
+students = LinkedList()
+
+students.insert("OTISO", "CIT/00015/024", {"Programming": 89, "Calculus": 60, "Linear algebra": 58})
+students.insert("JUSTINE", "CIT/00015", {"Programming": 97, "Calculus": 78, "Linear algebra": 76})
+students.insert("OKONDO", "CIM/0003", {"Programming": 82, "Calculus": 90, "Linear algebra": 72})
+
+students.display()
