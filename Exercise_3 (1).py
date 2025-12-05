@@ -2,7 +2,6 @@
 # **EXERCISE 3: PYTHON TUPLES (HEALTHCARE SECTOR)**
 # ==============================================
 
-print("EXERCISE 3: PYTHON TUPLES (HEALTHCARE SECTOR)")
 patient = ("Justine Otiso", 45, "120/80", 72)
 print("Patient tuple:", patient)
 print("Age:", patient[1], "Heart Rate:", patient[3])
