@@ -2,7 +2,6 @@
 # **EXERCISE 4: PYTHON DICTIONARIES (E-COMMERCE SECTOR)**
 # ==============================================
 
-print("EXERCISE 4: PYTHON DICTIONARIES (E-COMMERCE SECTOR)")
 inventory = {
     "Laptop": 15,
     "Phone": 8,
